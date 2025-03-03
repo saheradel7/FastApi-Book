@@ -1,0 +1,10 @@
+services:
+  book:
+    build:
+      context: .
+      args:
+        - DEV=true
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "uvicorn Book:book --reload --port 8000"

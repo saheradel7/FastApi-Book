@@ -1,0 +1,44 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env
+.venv/
+pyvenv.cfg
+
+# Ignore dependency files (if using pipenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.sqlite3
+db.sqlite3
+
+# Ignore Docker-related files (except Dockerfile)
+.dockerignore
+docker-compose.yml
+
+# Ignore Git repository files
+.git/
+.gitignore
+
+# Ignore unnecessary media/static files
+volumes/
+vol/
+media/
+static/
+
+# Ignore node_modules if using frontend in the same project
+node_modules/
